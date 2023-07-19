@@ -1,0 +1,14 @@
+div.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  input{
+    background-color: rgb(230, 209, 250);
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }

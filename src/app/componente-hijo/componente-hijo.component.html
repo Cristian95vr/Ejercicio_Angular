@@ -1,0 +1,10 @@
+
+  <div class="inputs">
+  <label for="nombre">Nombre:</label>
+  <input type="text" [(ngModel)]="nombre" #nombreInput placeholder="Ingresar un producto">
+
+  <label for="costo">Costo:</label>
+  <input type="text" [(ngModel)]="costo" #costoInput placeholder="Ingresar el precio">
+  <button mat-raised-button color="primary" (click)="agregarProducto(nombreInput.value, costoInput.value)">Agregar Producto</button>
+  </div>
+

@@ -1,0 +1,23 @@
+h1{
+    color: rgb(52, 52, 67);
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .componente-hijo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 30px; /* Ajusta el espaciado según tus necesidades */
+  }
+  
+  .lista-oculta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+button{
+    margin-left: 10px;
+}
